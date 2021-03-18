@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="script.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1>Phone Number Combinations</h1>
+    <div class="container">
+        <div class="input_class">
+            <label>Enter the Input :</label><br>
+            <textarea type="text" id="input"  cols="15" rows="1" autofocus style="resize:none;"></textarea>
+            <div class="keypad ">
+                <button class="number" id="1">1</button>
+                <button class="number" id="2">2</button>
+                <button class="number" id="3">3</button><br>
+                <button class="number" id="4">4</button>
+                <button class="number" id="5">5</button>
+                <button class="number" id="6">6</button><br>
+                <button class="number" id="7">7</button>
+                <button class="number" id="8">8</button>
+                <button class="number" id="9">9</button><br>
+                <button class="number" id="*" style="font-size: larger;">*</button>
+                <button class="number" id="0" >0</button>
+                <button class="number" id="#"  >#</button>
+
+            </div>
+            
+        </div>
+        
+        <div class = "vertical"></div> 
+
+        <div class="output_class">
+            <label>Possible Letters Combinations</label><br>
+            <textarea name="" id="output" cols="30" rows="8" ></textarea>
+        </div>
+    </div>
+    <br>
+    <div class="buttons">
+        <button onclick="takeInput()" class="compute">Compute</button>
+        <button id="clear">Clear</button>
+    </div> 
+</body>
+</html>

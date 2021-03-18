@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=JetBrains+Mono:wght@800&family=Ranchers&family=Sansita+Swashed:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 110%;
+    color: #1d4e89;
+}
+
+
+
+/*
+.container{
+    background-color: brown;
+    padding: 16px;
+    border-radius: 35px;
+    width: 50%;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+}
+*/
+
+body{
+    background: #edea9b; 
+}
+
+h1{
+    text-align: center;
+    padding: 4%;
+    font-size: 40px;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+label{
+    font-family: 'JetBrains Mono', monospace;
+
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    justify-content: center;
+}
+.input_class,.vertical,.output{
+    padding: 20px;
+}
+
+textarea{
+    font-family: 'Redressed', cursive;
+}
+
+.vertical { 
+    border-left: 3px solid black; 
+    height: 330px;  
+    padding: 1rem;
+} 
+
+.keypad{
+    padding-top: 10px;
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    
+}
